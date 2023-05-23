@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(230, 240,238);
+}
+
+.center{
+    text-align: center;
+}
+
+.encabezado{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.encabezado > h1:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#logo{
+    width: 80px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
